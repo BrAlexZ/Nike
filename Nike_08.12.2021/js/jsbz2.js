@@ -1,0 +1,10 @@
+var canvas = document.getElementById("bez2");
+        var context = canvas.getContext("2d");
+        context.beginPath();
+        context.moveTo(353, 393);
+        context.bezierCurveTo(586, 436, 1044, 198, 1905, 18);
+        context.bezierCurveTo(617, 530, 348, 777, 114, 644);
+        context.bezierCurveTo(-126, 464, 183, 123, 290, 8);
+        context.bezierCurveTo(181, 197, 202, 359, 353, 393);
+        context.stroke();
+        context.fill();

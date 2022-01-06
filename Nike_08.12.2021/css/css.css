@@ -1,0 +1,274 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	html{
+		width: 100%;
+		height: 100%;
+	}
+	
+	body{
+	background: url(../images/bg.jpg) rgba(255, 255, 255, 0.88) no-repeat fixed center center; 
+	font-family: Verdana, sans-serif;
+	color: black;
+	background-size: cover;
+	}
+
+	a:hover{
+		background-color: white;
+		border-radius: 0.5em;
+		border: 0.1em solid ;
+		transition: 0.4s;
+	}
+
+	a.ena{
+		color: orange;
+		text-decoration: none;
+	}
+	
+	a.dva{
+		text-decoration: none;
+		color: orange;
+	}
+
+	div.nula{
+		background-color: rgba(255, 255, 255, 0.1);
+		width: 118em;
+		height: 160em;
+		margin: auto auto;
+	}
+
+	div.ena{
+		font-size: 30px;
+		padding: 0.7em 0.7em;
+		width: 97.8%;
+		margin-top: 1em;
+		background-color: rgba(255, 255, 255, 0.8);
+		position: sticky;
+		z-index:100;
+		top: 8px;
+	}
+	
+	label.ena{
+		padding-left: 9.7em;
+	}
+	
+	label.dva{
+		padding-left: 9.7em;
+	}
+	
+	label.tri{
+		padding-left: 9.7em;
+	}
+	
+	label.stiri{
+		padding-left: 9.7em;
+	}
+	
+	div.dva{
+		margin-left: 43%;
+		font-size: 35px;
+		margin-top: 4em;	
+		color: white;
+	}
+	
+	div.tri{
+		margin-top: 1em;	
+		border: 2px solid orange;
+		width: 33.3%;
+		height: 39em;
+		margin-left: 33.3%;
+		position: relative;
+	}
+	
+	button.ena{
+		margin-top: 1em;	
+		border-radius: 1em;
+		border-color: orange;
+		margin-left: 36.5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	button.dva{
+		margin-top: 4em;	
+		border-radius: 1em;
+		border-color: orange;
+		margin-left: 5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	button.tri{
+		margin-top: 1em;	
+		border-radius: 1em;
+		border-color: orange;
+		margin-left: 5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	button.stiri{
+		margin-top: 1em;	
+		border-radius: 1em;
+		border-color: orange;
+		margin-left: 36.5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	button.pet{
+		margin-top: 4em;	
+		border-color: orange;
+		margin-left: 5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		border-radius: 1em;
+		font-size: 16px;
+	}
+	
+	button.sest{
+		margin-top: 1em;	
+		border-radius: 1em;
+		border-color: orange;
+		margin-left: 5%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	div.pet{
+		margin-left: 46.5%;
+		font-size: 39px;
+		margin-top: 4em;	
+		color: white;
+	}
+	
+	div.sest{
+		margin-top: 1em;	
+		border: 2px solid orange;
+		border-radius: 5px;
+		width: 33.3%;
+		height: 34em;
+		margin-left: 33.3%;
+		background-color: rgba(255, 255, 255, 0.5);	
+		position: relative;
+	}
+	
+	div.osem{
+		margin-top: 12em;	
+		opacity: 0.95;
+		border: 2px solid orange;
+		border-radius: 0px;
+		width: 100%;
+		height: 13em;
+		background-color: rgba(255, 255, 255, 1);	
+	}
+	
+	button.sedem{
+		margin-top: 4em;	
+		border-radius: 40px;
+		border-color: orange;
+		margin-left: 46%;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+	}
+	
+	img{
+		position: relative;
+		left: 0; 
+		top: 0;
+	}
+	
+	img.t-shirt{
+		position: relative;
+		opacity: 0.9;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	img.png1{
+		position: absolute;
+		left: 19.9em;
+		top: 9.5em;
+		width: 19%;
+		height: 13%;
+		visibility: hidden;
+	}
+	
+	img.svg1{
+		position: absolute;
+		left: 18em;
+		top: 9em;
+		width: 28%;
+		height: 14.5%;
+		visibility: hidden;
+	}
+
+	canvas.bez1{
+		position: absolute;
+		left: 21em;
+		top: 11em;
+		width: 14%;
+		height: 7%;
+	}
+	
+	img.shoes{
+		position: relative;
+		opacity: 0.9;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	img.png2{
+		position: absolute;
+		left: 18em;
+		top: 20.4em;
+		width: 19%;
+		height: 13%;
+		visibility: hidden;
+	}
+	
+	img.svg2{
+		position: absolute;
+		left: 18em;
+		top: 20em;
+		width: 19%;
+		height: auto;
+		visibility: hidden;
+	}
+
+	canvas.bez2{
+		position: absolute;
+		left: 19.1em;
+		top: 21.8em;
+		width: 14%;
+		height: 7%;
+	}
+	
+	@media (max-width: 1920px) and (min-width: 1080px) {
+  @viewport {
+   	div.nula{
+		background-color: rgba(255, 255, 255, 0.1);
+		width: 100%;
+		height: auto;
+		margin: auto auto;
+	}
+  }
+}
